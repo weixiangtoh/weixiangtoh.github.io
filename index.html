@@ -64,7 +64,8 @@
                     programming problem.
                     I have also taken some projects that require my team to work with real-life industry partners to
                     solve some of their problems.
-                    I would always feel fulfilled whenever I complete such projects. </p>
+                    I would always feel fulfilled whenever I complete such projects.
+                </p>
 
                 <img src="images/linkedin.JPG" alt="" class="image main" />
                 <ul class="actions special">
@@ -81,7 +82,7 @@
                     <h2>Projects</h2>
                 </header>
             </article>
-            <section class="posts">
+            <section class="posts" id="page1">
                 <article>
                     <header>
                         <span class="date">May 2020</span>
@@ -137,42 +138,77 @@
                     </p>
                     <ul class="actions special">
                         <li><a href="https://secure-bastion-03390.herokuapp.com/" target="_blank"
-                            class="button">Application</a></li>
-                            <li><a href="https://github.com/weixiangtoh/pacman" target="_blank" class="button"><span
-                                class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <header>
-                                <span class="date">May 2020 - August 2020</span>
-                                <h2>Summer Internship</h2>
-                            </header>
-                            <img src="images/talenox_epf_cal.gif" alt="epf_cal" class="image fit" />
+                                class="button">Application</a></li>
+                        <li><a href="https://github.com/weixiangtoh/pacman" target="_blank" class="button"><span
+                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span class="date">May 2020 - August 2020</span>
+                        <h2>2020 Summer Internship</h2>
+                    </header>
+                    <img src="images/talenox_epf_cal.gif" alt="epf_cal" class="image fit" />
                     <!-- <img src="images/maze.JPG" alt="pacman" class="image fit"/> -->
-                    <p>I will be embarking on an internship as a Software Engineering Intern at a HR cloud software
-                        firm.</p>
-                    <ul class="actions special">
-                        <!-- <li><a href="" class="button">Application</a></li>
+                    <p>
+                        Joined Talenox for my 2020 Summer internship as a Software Engineer Intern. My main project
+                        during the internship was to create the EPF PCB Calculator on the Malaysia site. Using <a
+                            href="https://coffeescript.org/">CoffeeScript</a>
+                        <code>(a programming language that compiles to JavaScript that was inspired by Ruby, Python and Haskell; was actually really easy to use!😃)</code>,
+                        Bootstrap and Ruby on Rails, I developed the frontend and linked the application to the existing
+                        backend parameters.
+                    </p>
+                    <p>
+                        The team at Talenox was so supportive and guided me throughout my internship!😊 Definitely a
+                        fulfilling experience and greatly appreciate the Talenox team! 😁
+                    </p>
+                    <!-- <ul class="actions special"> -->
+                    <!-- <li><a href="" class="button">Application</a></li>
 										<li><a href="" class="button">GitHub</a></li> -->
+                    <!-- </ul> -->
+                </article>
+
+            </section>
+
+            <section class="posts d-none" id="page2">
+                <article>
+                    <header>
+                        <span class="date">October 2020 - November 2020</span>
+                        <h2>ProjectQuest</h2>
+                    </header>
+                    <img src="images/pq_header.gif" alt="projectquest" class="image fit" />
+                    <img src="images/pq_personal.gif" alt="projectquest2" class="image fit" />
+                    <p>
+                        This is school project for a Web Development module. The project required us to identify an
+                        existinng problem and develop a web-based solution to solve it. My team identified the following
+                        problem: low work productivity during remote work arrangement especially for Software
+                        Developers. Thus, to improve the motivation amongst the employees, we created a gamified
+                        Software Project Management tool for easy remote team and task management.
+                    </p>
+                    <p>
+                        The application is built on Bootstrap, JavaScript and Vue.js for the frontend which features animations and guided tours for our pages. We also used Flask to connect the database (Firestore) to our application. The APIs utilised are the GitHub API and Daily.co API. Check out our video to understand more about our project!😀
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://projectquest.netlify.app/" target="_blank" class="button">Application</a>
+                        </li>
+                        <li><a href="https://github.com/tfortammi/wad2" target="_blank" class="button"><span
+                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
+                        <li><a href="https://youtu.be/NN2O8Q-xu4w" target="_blank" class="button"><span
+                                    class="icon brands fa-youtube"></span><span class="label">Video</span></a></li>
                     </ul>
                 </article>
 
             </section>
 
             <!-- Footer -->
-            <!-- <footer> -->
-            <!-- <div class="pagination">
-									<a href="#" class="previous">Prev</a>
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div> -->
-            <!-- </footer> -->
+            <footer>
+                <div class="pagination">
+                    <a href="#" id="previous" class="previous disabled" onclick="changePage()">Prev</a>
+                    <a href="#page1" id="page1-btn" onclick="changePage()" class="page active">1</a>
+                    <a href="#page2" id="page2-btn" onclick="changePage()" class="page">2</a>
+                    <a href="#page2" id="next" onclick="changePage()" class="next">Next</a>
+                </div>
+            </footer>
 
         </div>
 
@@ -222,6 +258,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/pagination.js"></script>
 
 </body>
 

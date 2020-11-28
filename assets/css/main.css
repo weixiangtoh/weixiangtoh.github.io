@@ -322,6 +322,10 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+	.d-none {
+		display: none!important;
+	}
+
 /* Row */
 
 	.row {
@@ -2194,6 +2198,8 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		button.disabled,
 		button:disabled,
+		a.disabled,
+		a:disabled,
 		.button.disabled,
 		.button:disabled {
 			pointer-events: none;
@@ -3460,7 +3466,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 6rem 4rem ;
+				padding: 4rem 4rem 8rem 4rem ;
 				min-height: 90vh;
 			}
 
