@@ -18,7 +18,7 @@ function changePage() {
 
         previous.href = "#page1";
     }
-    else{
+    else if (target.id!=p2Btn.id && target.id!=next.id){
         page2.classList.add("d-none");
         page1.classList.remove("d-none");
         next.classList.remove("disabled");
