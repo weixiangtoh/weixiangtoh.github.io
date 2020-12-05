@@ -4,12 +4,16 @@
 
 <head>
     <title>Toh Wei Xiang's Profolio</title>
+    <meta name="description"
+        content="Sophomore (Year 2) at Singapore Management University (SMU), enrolled in Double Degree Programme (DDP) with Information Systems and Business Management.">
+    <meta name="keywords" content="Wei Xiang Toh,Resume,Portfolio,SMU">
+    <meta name="author" content="Wei Xiang Toh">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 
 <body class="is-preload">
@@ -29,14 +33,15 @@
 
         <!-- Header -->
         <header id="header">
-            <a href="index.html" class="logo">Profile</a>
+            <span class="logo">Profile</span>
         </header>
 
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="index.html">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li class="active"><a href="index.html">Profile</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="#footer">Contact Me</a></li>
             </ul>
             <ul class="icons">
@@ -54,10 +59,12 @@
             <article class="post featured">
                 <header class="major">
                     <h2>About Me</h2>
-                    <h3>Double Degree in <br />
-                        Information Systems and Business Management
-                        <br />at Singapore Management University</h3>
+                    <img src="images/linkedin.JPG" alt="" class="image main" />
                 </header>
+                <p>
+                    I am a Sophomore (Year 2) at Singapore Management University (SMU), enrolled in Double Degree Programme (DDP) with Information Systems and Business Management.
+                </p>
+
                 <p>I have a strong interest in problem-solving.
                     As a deep thinker since young, I have always been intrigued by the workings of systems and the
                     world.
@@ -68,7 +75,10 @@
                     I would always feel fulfilled whenever I complete such projects.
                 </p>
 
-                <img src="images/linkedin.JPG" alt="" class="image main" />
+                <p>
+                    I have a strong interest in Software Development, Product Management, Business and Data Analytics as well as Quantitative Finance. Feel free to drop me a message and I will gladly reply to them! 😊
+                </p>
+
                 <ul class="actions special">
                     <li><a href="https://www.linkedin.com/in/weixiang-toh/" target="_blank" class="button large"><span
                                 class="icon brands fa-linkedin"></span>Linkedin</a></li>
@@ -78,157 +88,39 @@
             </article>
 
             <!-- Posts -->
-            <article class="post featured">
-                <header id='projects' class="major">
-                    <h2>Projects</h2>
+            <article class="post">
+                <header id='experience' class="major">
+                    <h2>Experience</h2>
                 </header>
+
+                <header>
+                    <h4 style="font-size:16px;">Software Engineer Intern<span style="float: right;">May 2020 - August 2020</span></h4>
+
+                    <h3>Talenox Pte. Ltd.</h3>
+                </header>
+                <ul>
+                    <li>Spearheaded the deployment of the Malaysia EPF/PCB Calculator, using Bootstrap, CoffeeScript
+                        (programming language that compiles JavaScript) and Ruby on Rails, to provide users a platform
+                        to accurately calculate their taxes for free</li>
+                    <li>Expanded on the features available on the Singapore’s CPF Calculator for an improved user
+                        experience; CPF Calculator is visited by thousands of users every month</li>
+                    <li>Responsible for updating the frontend of the Singapore, Hong Kong and Global landing pages,
+                        which are visited by thousands of users monthly, for better mobile responsiveness</li>
+                </ul>
+                <img src="images/talenox.gif" alt="epf_cal" class="image left">
+                <p>
+                    Joined Talenox for my 2020 Summer internship as a Software Engineer Intern. My main project
+                    during the internship was to create the EPF PCB Calculator on the Malaysia site. Using <a
+                        href="https://coffeescript.org/">CoffeeScript</a>
+                    <code>(a programming language that compiles to JavaScript that was inspired by Ruby, Python and Haskell; was actually really easy to use!)</code>,
+                    Bootstrap and Ruby on Rails, I developed the frontend and linked the application to the existing
+                    backend parameters.
+                </p>
+                <p>
+                    The team at Talenox was so supportive and guided me throughout my internship! Definitely a
+                    fulfilling experience and greatly appreciate the Talenox team! 😁
+                </p>
             </article>
-            <section class="posts" id="page1">
-                <article>
-                    <header>
-                        <span class="date">May 2020</span>
-                        <h2>Telegram Bot:<br />
-                            HelpOut Bot</h2>
-                        <p>Final 8 for #codeForCorona: Students Against COVID hackathon</p>
-                    </header>
-                    <!-- <img src="images/telebot.jpg" alt="helpout" class="image fit" /> -->
-                    <img src="images/helpoutbot.gif" alt="helpout" class="image fit" />
-                    <p>Participated in a two-day Hackathon organised by National Youth Council.
-                        The main purpose of this Telegram Bot is to help those affected by the Covid situation by
-                        promoting acts of kindness.
-                        It is built with Python Telebot API and MySQL as the database.
-
-                    </p>
-                    <ul class="actions special">
-                        <li><a href="https://devpost.com/software/covid-ofiq9e" target="_blank"
-                                class="button"><span class="fas fa-external-link-alt"></span>Submission</a></li>
-                        <li><a href="https://github.com/weixiangtoh/telebot" target="_blank" class="button"><span
-                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <header>
-                        <span class="date">April 2020</span>
-                        <h2>Twitter Clone<br />
-                                Application</h2>
-                    </header>
-                    <!-- <img src="images/clon-ss.JPG" alt="twitter_logo" class="image fit" /> -->
-                    <img src="images/twitter_clone.gif" alt="twitter-clone" class="image fit" />
-
-                    <p>This Twitter Clone application was built mianly with Ruby on Rails.
-                        Due to the capabilities of my laptop, I used AWS EC2 enviornment to complete this project.
-                        It is deployed on Heroku with PostgreSQL and SendGrid add-ons.
-                        Features include: posting images, account activation mailer, password reset mailer.
-                    </p>
-                    <ul class="actions special">
-                        <li><a href="https://radiant-sierra-39624.herokuapp.com/" target="_blank"
-                                class="button"><span class="fa fa-desktop" aria-hidden="true"></span>Application</a></li>
-                        <li><a href="https://github.com/weixiangtoh/sample_app" target="_blank" class="button"><span
-                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <header>
-                        <span class="date">March 2020</span>
-                        <h2>Pacman Maze</h2>
-                    </header>
-                    <img src="images/pacman.gif" alt="pacman" class="image fit" />
-                    <p>Built the application mainly with PHP for a school assignment, with JavaScript and CSS for the
-                        animation.
-                        The focus of the application was to test BFS - shortest path concept. Pacman will move from the
-                        start to the end.
-                        Obstacles can be included when generating the maze.
-                    </p>
-                    <ul class="actions special">
-                        <li><a href="https://secure-bastion-03390.herokuapp.com/" target="_blank"
-                                class="button"><span class="fa fa-desktop" aria-hidden="true"></span>Application</a></li>
-                        <li><a href="https://github.com/weixiangtoh/pacman" target="_blank" class="button"><span
-                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <header>
-                        <span class="date">May 2020 - August 2020</span>
-                        <h2>2020 Summer Internship</h2>
-                    </header>
-                    <!-- <img src="images/talenox_epf_cal.gif" alt="epf_cal" class="image fit" /> -->
-                    <img src="images/talenox.gif" alt="epf_cal" class="image fit" />
-                    <p>
-                        Joined Talenox for my 2020 Summer internship as a Software Engineer Intern. My main project
-                        during the internship was to create the EPF PCB Calculator on the Malaysia site. Using <a
-                            href="https://coffeescript.org/">CoffeeScript</a>
-                        <code>(a programming language that compiles to JavaScript that was inspired by Ruby, Python and Haskell; was actually really easy to use!😃)</code>,
-                        Bootstrap and Ruby on Rails, I developed the frontend and linked the application to the existing
-                        backend parameters.
-                    </p>
-                    <p>
-                        The team at Talenox was so supportive and guided me throughout my internship!😊 Definitely a
-                        fulfilling experience and greatly appreciate the Talenox team! 😁
-                    </p>
-                    <!-- <ul class="actions special"> -->
-                    <!-- <li><a href="" class="button">Application</a></li>
-										<li><a href="" class="button">GitHub</a></li> -->
-                    <!-- </ul> -->
-                </article>
-
-            </section>
-
-            <section class="posts d-none" id="page2">
-                <article>
-                    <header>
-                        <span class="date">October 2020 - November 2020</span>
-                        <h2>ProjectQuest</h2>
-                    </header>
-                    <img src="images/pq_header.gif" alt="projectquest" class="image fit" />
-                    <img src="images/pq_personal.gif" alt="projectquest2" class="image fit" />
-                    <p>
-                        This is school project for a Web Development module. The project required us to identify an
-                        existinng problem and develop a web-based solution to solve it. My team identified the following
-                        problem: low work productivity during remote work arrangement especially for Software
-                        Developers. Thus, to improve the motivation amongst the employees, we created a gamified
-                        Software Project Management tool for easy remote team and task management.
-                    </p>
-                    <p>
-                        The application is built on Bootstrap, JavaScript and Vue.js for the frontend which features animations and guided tours for our pages. We also used Flask to connect the database (Firestore) to our application. The APIs utilised are the GitHub API and Daily.co API. Check out our video to understand more about our project!😀
-                    </p>
-                    <ul class="actions special">
-                        <li><a href="https://projectquest.netlify.app/" target="_blank" class="button"><span class="fa fa-desktop" aria-hidden="true"></span>Application</a>
-                        </li>
-                        <li><a href="https://github.com/tfortammi/wad2" target="_blank" class="button"><span
-                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
-                        <li><a href="https://youtu.be/NN2O8Q-xu4w" target="_blank" class="button"><span
-                                    class="icon brands fa-youtube"></span><span class="label">Video</span></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <header>
-                        <span class="date"></span>
-                        <h2></h2>
-                    </header>
-                    <!-- <img src="images/pq_header.gif" alt="projectquest" class="image fit" /> -->
-                    <p>
-                    </p>
-                    <!-- <ul class="actions special">
-                        <li><a href="https://projectquest.netlify.app/" target="_blank" class="button">Application</a>
-                        </li>
-                        <li><a href="https://github.com/tfortammi/wad2" target="_blank" class="button"><span
-                                    class="icon brands fa-github"></span><span class="label">GitHub</span></a></li>
-                        <li><a href="https://youtu.be/NN2O8Q-xu4w" target="_blank" class="button"><span
-                                    class="icon brands fa-youtube"></span><span class="label">Video</span></a></li>
-                    </ul> -->
-                </article>
-
-            </section>
-
-            <!-- Footer -->
-            <footer>
-                <div class="pagination">
-                    <a href="#" id="previous" class="previous disabled" onclick="changePage()">Prev</a>
-                    <a href="#page1" id="page1-btn" onclick="changePage()" class="page active">1</a>
-                    <a href="#page2" id="page2-btn" onclick="changePage()" class="page">2</a>
-                    <a href="#page2" id="next" onclick="changePage()" class="next">Next</a>
-                </div>
-            </footer>
 
         </div>
 
@@ -268,7 +160,10 @@
             </ul>
         </div>
 
+        <a href="#" id="back-to-top" class="button icon solid solo fa fa-chevron-up back-to-top"></a>
     </div>
+
+
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
